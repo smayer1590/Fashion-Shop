@@ -18,7 +18,7 @@ const navContent = {
 };
 
 const navigation = {
-  backgroundColor: "#170e09",
+  backgroundColor: "#2c1d0e",
   display: "flex",
   flexDirection: "column",
 };

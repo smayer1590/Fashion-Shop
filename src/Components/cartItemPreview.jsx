@@ -8,7 +8,7 @@ const product = {
   position: "relative",
 };
 
-class CartPreview extends Component {
+class ProductPreview extends Component {
   state = {};
 
   render() {
@@ -40,4 +40,4 @@ class CartPreview extends Component {
   }
 }
 
-export default CartPreview;
+export default ProductPreview;

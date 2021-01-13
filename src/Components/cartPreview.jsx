@@ -1,6 +1,6 @@
 import { findByLabelText } from "@testing-library/react";
 import React, { Component } from "react";
-import ProductPreview from "./productPreview";
+import CartItemPreview from "./cartItemPreview";
 
 const productPreview = {
   width: "25%",
@@ -23,10 +23,10 @@ class CartPreview extends Component {
           Your Shopping Cart:
         </span>
         <div>
-          <ProductPreview source={this.state.source + "100"} />
-          <ProductPreview source={this.state.source + "200"} />
-          <ProductPreview source={this.state.source + "300"} />
-          <ProductPreview source={this.state.source + "400"} />
+          <CartItemPreview source={this.state.source + "100"} />
+          <CartItemPreview source={this.state.source + "200"} />
+          <CartItemPreview source={this.state.source + "300"} />
+          <CartItemPreview source={this.state.source + "400"} />
         </div>
 
         {/* Need to add total price */}
