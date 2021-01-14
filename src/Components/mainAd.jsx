@@ -20,12 +20,6 @@ const buttonStyle = {
   borderRadius: 5,
 };
 
-const slideImages = [
-  "https://picsum.photos/300",
-  "https://picsum.photos/400",
-  "https://picsum.photos/500",
-];
-
 class MainAd extends Component {
   state = {};
   render() {
@@ -35,7 +29,7 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${slideImages[0]})`,
+                backgroundImage: `url(${this.props.ad[0]})`,
                 height: 400,
                 display: "flex",
                 justifyContent: "center",
@@ -47,7 +41,7 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${slideImages[1]})`,
+                backgroundImage: `url(${this.props.ad[1]})`,
                 height: 400,
                 display: "flex",
                 justifyContent: "center",
@@ -59,7 +53,7 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${slideImages[2]})`,
+                backgroundImage: `url(${this.props.ad[2]})`,
                 height: 400,
                 display: "flex",
                 justifyContent: "center",

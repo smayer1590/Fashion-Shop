@@ -3,9 +3,9 @@ import ItemPreview from "./itemPreview";
 import Popup from "reactjs-popup";
 
 class BestSeller extends Component {
-  state = {};
-
-  itemClicked = () => {};
+  itemClicked = () => {
+    console.log("clicked");
+  };
 
   render() {
     return (
@@ -23,22 +23,16 @@ class BestSeller extends Component {
             justifyContent: "space-around",
           }}
         >
-          <div onClick={this.itemClicked}>
-            <ItemPreview source="https://picsum.photos/100" />
-          </div>
-
-          <div onClick={this.itemClicked}>
-            <ItemPreview source="https://picsum.photos/200" />
-          </div>
-          <div onClick={this.itemClicked}>
-            <ItemPreview source="https://picsum.photos/300" />
-          </div>
-          <div onClick={this.itemClicked}>
-            <ItemPreview source="https://picsum.photos/400" />
-          </div>
-          <div onClick={this.itemClicked}>
-            <ItemPreview source="https://picsum.photos/500" />
-          </div>
+          {this.props.product.map((data) => {
+            return (
+              <div
+                onClick={this.itemClicked}
+                style={{ width: 300, margin: "3%" }}
+              >
+                <ItemPreview key={data.name} product={data} />
+              </div>
+            );
+          })}
         </div>
       </div>
     );

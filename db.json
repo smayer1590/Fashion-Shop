@@ -1,0 +1,206 @@
+{
+  "ads": {
+    "men": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103",
+    "women": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103",
+    "accessories": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103"
+  },
+  "product": [
+    {
+      "name": "T-shirt",
+      "price": 19.99,
+      "description": "A classic T-Shirt made for men!",
+      "purchaseCount": 4,
+      "type": "men",
+      "color": {
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "yellow": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "red": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        }
+      }
+    },
+    {
+      "name": "Jean",
+      "price": 74.99,
+      "description": "A classic Jean made for men!",
+      "purchaseCount": 10,
+      "type": "men",
+      "color": {
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "blue": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        }
+      }
+    },
+    {
+      "name": "Sock",
+      "price": 13.99,
+      "description": "A classic sock made for men!",
+      "purchaseCount": 2,
+      "type": "men",
+      "color": {
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "red": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        }
+      }
+    },
+    {
+      "name": "Sunclass",
+      "price": 99.99,
+      "description": "A classic Sunclass made for all people!",
+      "purchaseCount": 7,
+      "type": "accessories",
+      "color": {
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "red": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        }
+      }
+    },
+    {
+      "name": "Earing",
+      "price": 39.99,
+      "description": "A classic earing!",
+      "purchaseCount": 2,
+      "type": "accessories",
+      "color": {
+        "silver": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        }
+      }
+    },
+    {
+      "name": "Hoodie",
+      "price": 79.99,
+      "description": "A classic Hoodie made for women!",
+      "purchaseCount": 20,
+      "type": "women",
+      "color": {
+        "black": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 3,
+          "medium": 10,
+          "large": 0
+        },
+        "white": {
+          "image": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+          },
+          "small": 1,
+          "medium": 2,
+          "large": 0
+        }
+      }
+    }
+  ]
+}
