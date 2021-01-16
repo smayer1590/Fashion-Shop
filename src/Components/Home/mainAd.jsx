@@ -2,13 +2,6 @@ import React, { Component } from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-const image = {
-  width: "100%",
-  marginTop: 100,
-  marginBottom: 100,
-  height: 400,
-};
-
 const buttonStyle = {
   margin: "auto",
   textAlign: "center",
@@ -29,8 +22,8 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${this.props.ad[0]})`,
-                height: 400,
+                backgroundImage: `url(${this.props.ad.men})`,
+                height: 800,
                 display: "flex",
                 justifyContent: "center",
               }}
@@ -41,8 +34,8 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${this.props.ad[1]})`,
-                height: 400,
+                backgroundImage: `url(${this.props.ad.women})`,
+                height: 800,
                 display: "flex",
                 justifyContent: "center",
               }}
@@ -53,8 +46,8 @@ class MainAd extends Component {
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(${this.props.ad[2]})`,
-                height: 400,
+                backgroundImage: `url(${this.props.ad.accessories})`,
+                height: 800,
                 display: "flex",
                 justifyContent: "center",
               }}

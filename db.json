@@ -1,206 +1,191 @@
 {
-  "ads": {
-    "men": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103",
-    "women": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103",
-    "accessories": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/ad1.jpg?alt=media&token=3551e769-231b-420b-a198-8b1961564103"
+  "ad": {
+    "men": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FAds%2Fmen.jpg?alt=media&token=c936bc01-92f6-4ff5-b8e7-b4d28e136e8a",
+    "women": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FAds%2Fwomen.jpg?alt=media&token=23ccae87-1d49-4c78-a3a7-8d05e08ea579",
+    "accessories": "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FAds%2Faccessories.jpg?alt=media&token=acca029f-4be7-4c37-867d-615cc56e7570"
   },
   "product": [
     {
+      "id": 0,
       "name": "T-shirt",
       "price": 19.99,
       "description": "A classic T-Shirt made for men!",
       "purchaseCount": 4,
       "type": "men",
-      "color": {
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "yellow",
+          "size": {
+            "small": 1,
+            "medium": 2,
+            "large": 3
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "yellow": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "yellow",
+          "size": {
+            "small": 4,
+            "medium": 5,
+            "large": 6
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "red": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "red",
+          "size": {
+            "small": 7,
+            "medium": 8,
+            "large": 9
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     },
     {
+      "id": 1,
       "name": "Jean",
       "price": 74.99,
       "description": "A classic Jean made for men!",
       "purchaseCount": 10,
       "type": "men",
-      "color": {
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "black",
+          "size": {
+            "small": 10,
+            "medium": 11,
+            "large": 12
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "blue": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "blue",
+          "size": {
+            "small": 13,
+            "medium": 14,
+            "large": 15
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     },
     {
+      "id": 2,
       "name": "Sock",
       "price": 13.99,
       "description": "A classic sock made for men!",
       "purchaseCount": 2,
       "type": "men",
-      "color": {
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "black",
+          "size": {
+            "small": 16,
+            "medium": 17,
+            "large": 18
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "red": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "red",
+          "size": {
+            "small": 19,
+            "medium": 20,
+            "large": 21
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     },
     {
-      "name": "Sunclass",
+      "id": 3,
+      "name": "Sunglass",
       "price": 99.99,
       "description": "A classic Sunclass made for all people!",
       "purchaseCount": 7,
       "type": "accessories",
-      "color": {
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "black",
+          "size": {
+            "small": 3,
+            "medium": 10,
+            "large": 0
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "red": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "red",
+          "size": {
+            "small": 3,
+            "medium": 10,
+            "large": 0
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     },
     {
+      "id": 4,
       "name": "Earing",
       "price": 39.99,
       "description": "A classic earing!",
       "purchaseCount": 2,
       "type": "accessories",
-      "color": {
-        "silver": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "silver",
+          "size": {
+            "small": 3,
+            "medium": 10,
+            "large": 0
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         },
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "black",
+          "size": {
+            "small": 3,
+            "medium": 10,
+            "large": 0
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     },
     {
+      "id": 5,
       "name": "Hoodie",
       "price": 79.99,
       "description": "A classic Hoodie made for women!",
       "purchaseCount": 20,
       "type": "women",
-      "color": {
-        "black": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+      "color": [
+        {
+          "color": "black",
+          "size": {
+            "small": 3,
+            "medium": 10,
+            "large": 0
           },
-          "small": 3,
-          "medium": 10,
-          "large": 0
+          "image": [
+            "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FHoodie%2Fblack1.png?alt=media&token=18e1a88f-44dc-40c0-a04a-7cf0621376c6",
+            "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FHoodie%2Fblack2.png?alt=media&token=9c991fef-1789-45a7-8850-b5e1cdef8746",
+            "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FHoodie%2Fblack3.png?alt=media&token=7634bb2b-eecc-41c3-9eb4-df2fb69d84ac",
+            "https://firebasestorage.googleapis.com/v0/b/fashion-shop-ad276.appspot.com/o/images%2FHoodie%2Fblack4.png?alt=media&token=86753212-9a3c-4304-8f51-12bc6159a652"
+          ]
         },
-        "white": {
-          "image": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+        {
+          "color": "white",
+          "size": {
+            "small": 1,
+            "medium": 2,
+            "large": 0
           },
-          "small": 1,
-          "medium": 2,
-          "large": 0
+          "image": ["", "", "", ""]
         }
-      }
+      ]
     }
   ]
 }

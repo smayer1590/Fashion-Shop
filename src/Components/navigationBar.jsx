@@ -21,6 +21,7 @@ const navigation = {
   backgroundColor: "#2c1d0e",
   display: "flex",
   flexDirection: "column",
+  zIndex: 1,
 };
 
 const timeoutLength = 300;
@@ -59,8 +60,9 @@ class NavigationBar extends Component {
   render() {
     return (
       <Navbar style={navigation} collapseOnSelect expand="lg">
-        <Navbar.Brand style={navContent}>Logo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Brand href="/" style={navContent}>
+          Logo
+        </Navbar.Brand>
         <Navbar.Collapse id="responsive-navbar-nav" style={{ width: "100%" }}>
           <Nav style={navParent}>
             <Nav.Link

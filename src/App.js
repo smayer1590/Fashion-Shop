@@ -1,10 +1,12 @@
 import "./App.css";
 import React, { Component } from "react";
 import NavigationBar from "./Components/navigationBar";
-import MainAd from "./Components/mainAd";
-import BestSeller from "./Components/bestSettler";
+import Home from "./Components/Home/home";
+import Men from "./Components/Men/men";
+//import Women from "./Components/Women/women";
 import firebase from "firebase";
 import "@firebase/storage";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 // Firebase Config
 const firebaseConfig = {
@@ -33,56 +35,29 @@ const adImage = {
 };
 
 class App extends Component {
-  state = {
-    product: [],
-    ad: [],
-  };
-
-  componentDidMount() {
-    firebase
-      .database(app)
-      .ref("product")
-      .orderByChild("purchaseCount")
-      .on("value", (snapshop) => {
-        let product = [];
-        snapshop.forEach((element) => {
-          product.push(element.val());
-        });
-        this.setState({ product });
-      });
-
-    const url = [
-      "images/men.jpg",
-      "images/women.jpg",
-      "images/accessories.jpg",
-    ];
-
-    const ad = [];
-    url.forEach((element) => {
-      firebase
-        .storage()
-        .ref(element)
-        .getDownloadURL()
-        .then((snapshop) => {
-          ad.push(snapshop);
-        });
-    });
-    this.setState({ ad });
-  }
-
   render() {
     return (
-      <React.Fragment>
-        <main style={adImage}>
-          <div style={{ marginTop: 100 }}>
-            <MainAd ad={this.state.ad} />
-          </div>
-          <div style={{ margin: 50, backgroundColor: "#2c0e0e" }}>
-            <BestSeller product={this.state.product.slice(-6).reverse()} />
-          </div>
-        </main>
+      <Router>
         <NavigationBar />
-      </React.Fragment>
+
+        <React.Fragment>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+            <Route exact path="/men">
+              <Men />
+            </Route>
+            {/*<Route exact path="/women">
+            <Women />
+          </Route>
+          <Route exact path="/accessories">
+            <Accessories />
+          </Route> */}
+          </Switch>
+        </React.Fragment>
+      </Router>
     );
   }
 }

@@ -35,6 +35,7 @@ class ItemPreview extends Component {
       >
         <img
           src={this.state.url}
+          alt=""
           style={{
             width: 200,
             WebkitUserDrag: "none",

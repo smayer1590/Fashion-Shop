@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Nav } from "react-bootstrap";
 
 const menuBackground = {
-  backgroundColor: "#FFEBCD",
   width: "100%",
   display: "flex",
   flexDirection: "row",
@@ -20,8 +19,9 @@ const menuList = {
 const menuText = {
   margin: "20px",
   textAlign: "center",
-  color: "black",
+  color: "wheat",
 };
+
 class CollapsableMenu extends Component {
   state = {};
   render() {
